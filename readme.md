@@ -46,9 +46,9 @@ To install the required dependencies, use the following command:<br>
 Or You can just run the following command in Command Prompt:<br>
 ```pip install customtkinter tk Pillow```
 
-## Reporting Issues
-> If you encounter any issues while using FileOrganizer, please report them [here](
-    https://github.com/AbhiCrackerOfficial/OSM-OracleDBServicesManager/issues) so that they can be resolved as soon as possible.
+## Reporting Issues or Suggest New Features
+> If you encounter any issues while using FileOrganizer or you want to suggest new features, please report them [here](
+    https://github.com/AbhiCrackerOfficial/FileOrganizer/issues) so that they can be resolved as soon as possible.
 
 ## Buy me a coffee
 If you like my work, please consider buying me a coffee (or two) as it helps me a lot in keeping myself motivated to work on this project.<br><br>
