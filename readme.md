@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/FquNs9l.png?maxwidth=760&fidelity=grand">
 </div><br>
 
-> **FileOrganizer** is a powerful and user-friendly tool that helps you efficiently organize your files by sorting them into folders based on their file extensions. Keep your directories clean and easily locate your files with FileOrganizer!
+> **FileOrganizer** is a powerful and user-friendly tool that helps you efficiently organize your files by sorting them into folders based on their file extensions. Keep your directories clean and easily sort your files with FileOrganizer!
 
 <hr>
 
