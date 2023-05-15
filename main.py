@@ -165,25 +165,6 @@ def edit_settings():
         save_file(settings)
         disp_message(
             f"Folder '{folder_name}' Added with its extensions", settings['c1'])
-        
-    def del_ext():
-        # Get Folder Name
-        add_dialog1 = CTkInputDialog(text="Name of Folder", title="Add Folder")
-        folder_name = (add_dialog1.get_input()).capitalize()
-        if (len(folder_name) == 0):
-            disp_message("Please Enter a Valid Name")
-            return
-        elif folder_name not in settings['ext_types']:
-            disp_message("Folder Does Not Exists")
-            return
-        elif folder_name == "Others":
-            disp_message("You Can't Delete Others Folder")
-            return
-        # Delete Extensions
-        settings['ext_types'].pop(folder_name)
-        # Save Settings
-        save_file(settings)
-        disp_message(f"Folder '{folder_name}' Deleted", settings['c1'])
 
     def add_exts():
         # Get Folder Name
@@ -325,9 +306,9 @@ def edit_settings():
         'Sans Serif', 15), text_color=settings['c2'], command=add_ext)
     add_ext.pack(pady=12)
     # Extension Delete Button
-    del_ext = CTkButton(app, text="Delete Folders", font=(
-        'Sans Serif', 15), text_color=settings['c2'], command=del_ext)
-    del_ext.pack(pady=12)
+    del_folder = CTkButton(app, text="Remove Folder", font=(
+        'Sans Serif', 15), text_color=settings['c2'], command=del_folder)
+    del_folder.pack(pady=12)
     # Extension Edit Button
     edit_ext = CTkButton(app, text="Add Extensions to Folder", font=(
         'Sans Serif', 15), text_color=settings['c2'], command=add_exts)
@@ -336,9 +317,6 @@ def edit_settings():
     edit_ext = CTkButton(app, text="Remove Extensions from Folder", font=(
         'Sans Serif', 15), text_color=settings['c2'], command=remove_exts)
     edit_ext.pack(pady=12)
-    # Remove Folder Button
-    edit_ext = CTkButton(app, text="Remove Folder", font=(
-        'Sans Serif', 15), text_color=settings['c2'], command=del_folder)
     edit_ext.pack(pady=12)
     # Extension Display Button
     edit_ext = CTkButton(app, text="Display Folders and Extensions", font=(
