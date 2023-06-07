@@ -54,4 +54,4 @@ Or You can just run the following command in Command Prompt:<br>
 
 ## Buy me a coffee
 If you like my work, please consider buying me a coffee (or two) as it helps me a lot in keeping myself motivated to work on this project.<br><br>
-<a href="https://www.buymeacoffee.com/AbhiCracker001"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=AbhiCracker&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+<a target="_blank" href="https://www.buymeacoffee.com/AbhiCracker001"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=AbhiCracker&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
